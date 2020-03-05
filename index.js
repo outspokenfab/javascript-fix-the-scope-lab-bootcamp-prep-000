@@ -35,4 +35,4 @@ var funkyFunction = function() {
 funkyFunction();
 var theFunk = funkyFunction();
 theFunk();
-console.log(funkyFunction());
+console.log(funkyFunction().String);
