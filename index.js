@@ -47,4 +47,4 @@ function outer() {
 var greeting = outer()
  
 // we can then call greeting and pass in a string
-greeting('Proffesor Falken');
+console.log(greeting('Proffesor Falken'));
