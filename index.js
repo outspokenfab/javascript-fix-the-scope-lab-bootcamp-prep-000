@@ -34,6 +34,7 @@ var funkyFunction = function() {
 
 var theFunk = funkyFunction();
 theFunk = theFunk().toString;
+console.log(theFunk)
 
 
 //---------------------------------
