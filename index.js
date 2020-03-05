@@ -39,7 +39,7 @@ console.log(funkyFunction());
 function outer() {
   var example = "Greetings "
   return function inner(name) {
-    return example + name
+    return "TEST"
   }
 }
  
