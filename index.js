@@ -33,3 +33,18 @@ var funkyFunction = function() {
 // NOTE: you only need to modify the code below this line
 
 console.log(funkyFunction());
+
+
+// An example closure
+function outer() {
+  var example = "Greetings "
+  return function inner(name) {
+    return example + name
+  }
+}
+ 
+// greeting is assigned the definition of the inner function
+var greeting = outer()
+ 
+// we can then call greeting and pass in a string
+greeting('Proffesor Falken')
