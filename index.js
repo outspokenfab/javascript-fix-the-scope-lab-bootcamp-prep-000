@@ -37,7 +37,6 @@ console.log(funkyFunction());
 
 // An example closure
 function outer() {
-  var example = "Greetings "
   return function inner(name) {
     return "TEST"
   }
@@ -47,4 +46,4 @@ function outer() {
 var greeting = outer()
  
 // we can then call greeting and pass in a string
-console.log(greeting('Proffesor Falken'));
+console.log(greeting());
