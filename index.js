@@ -36,10 +36,9 @@ console.log(funkyFunction());
 
 //---------------------------------
 // An example closure
-var outer
-outer = function () {
+var outer = function () {
   return function () {
-    return "TEST"
+    return "FUNKY!"
   }
 }
  
