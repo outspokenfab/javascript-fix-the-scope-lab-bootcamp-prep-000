@@ -36,7 +36,8 @@ console.log(funkyFunction());
 
 //---------------------------------
 // An example closure
-function outer() {
+var outer
+outer = function () {
   return function () {
     return "TEST"
   }
